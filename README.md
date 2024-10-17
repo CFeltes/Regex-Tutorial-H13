@@ -6,6 +6,25 @@ Thirteenth homework assignment
 Thirteenth homework assignment - Regex Tutorial
 
 
+## Summary
+In this challenge, I'll be explaining the purpose and functionality of a basic "regular expression," or regex. A regex is a sequence of characters that outlines a specific search pattern within code or a search algorithm. These functions are useful when collecting data that needs to meet specific requirements in order to serve the users or for collected data to be functionally represented within an array, for example. In this challenge, I'll be outlining the regex formula below, which defines the requirements for a valid email address within JavaScript. When these parameters are satisfied, the email address entered can successfully be submitted to an array, algorithm, or function within our given JavaScript code. Please see my breakdown of the formula below.
+
+Matching an Email – /^([a-z0-9_.-]+)@([\da-z.-]+).([a-z.]{2,6})$/
+
+// - The string is contained within these two backslashes
+
+^ - indicates the beginning of the string () - the first set of parentheses enclose the first part of the email address (1st capturing group, or everything before the @domain) Within the [] - a-z - indicates that any letters between a-z are acceptable 0-9 - indicates that any numbers between 0-9 are acceptable _ - indicates that the underscore character ( _ ) is acceptable . - the forward slash before the dot (.) isolates the date, specifying that the ( . ) is acceptable
+
+indicates that the dash character ( - ) is acceptable The + indicates that any one of the above letters, numbers, or characters can appear an unlimited quantity of times within this part of the email address.
+The @ symbol appears outside of parentheses or brackets, indicating that it is a necessary part of the formula exactly as it is (once), in its placement.
+
+() - the second set of parentheses enclose the second part of the email address (2nd capturing group, or the first part of the domain) Within the [] - \d - indicates a digit, indicating that any numbers between 0-9 are acceptable a-z - indicates that any letters between a-z are acceptable . - the forward slash before the dot (.) isolates the dot, specifying that the ( . ) is acceptable Once again, the + indicates that any one of the above letters, numbers, or characters can appear an unlimited quantity of times within this part of the email address.
+
+Similar to the @, the . following the second capturing group indicates that it is a necessary part of the formula exactly as it is (once), in its placement. The forward slash before the dot ( . ) isolates the dot.
+
+() - the third set of parentheses enclose the third part of the email address (3rd capturing group, or the second part of the domain) Within the [] - a-z - indicates that any letters between a-z are acceptable . - the forward slash before the dot (.) isolates the dot, specifying that the ( . ) is acceptable {2,6} - this indicates that, as opposed to the (+) symbol, any of the previously defined characters can appear no less than 2 but no more than 6 times, in whatever order, combination, or repetition.
+
+$ - indicates the conclusion of the string
 
 ## Table of Contents
 - [User-Story] (#User Story)
@@ -42,6 +61,9 @@ Step-by-step instructions on how to install and set up your project.
 Instructions on how to use your application.
 
 Visit my sites here!
+Gist :
+https://gist.github.com/CFeltes/6277622d9605b69c9179e3f78dbee2e0
+
 https://CFeltes.github.io/Regex-Tutorial-H13/
 https://github.com/CFeltes/Regex-Tutorial-H13
 
