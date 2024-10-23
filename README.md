@@ -67,9 +67,6 @@ https://gist.github.com/CFeltes/6277622d9605b69c9179e3f78dbee2e0
 https://CFeltes.github.io/Regex-Tutorial-H13/
 https://github.com/CFeltes/Regex-Tutorial-H13
 
-![See First Page Screenshot](Screenshot-1.jpg)
-![See Secord Page Screenshot](Screenshot-2.jpg)
-![See Third Page Screenshot](Screenshot-3.jpg)
 
 
 ## Contributing
